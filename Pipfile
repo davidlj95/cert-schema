@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jsonschema = ">=2.6.0"
+requests = ">=2.18.4"
+tox = ">=3.0.0"
+validators = ">=0.12.1"
+PyLD = ">=1.0.3"
+
+[requires]
+python_version = "3.7"
