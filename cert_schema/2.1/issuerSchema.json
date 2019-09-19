@@ -66,8 +66,8 @@
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^ecdsa-koblitz-pubkey:",
-          "description": "Issuer public key or blockchain address IRI with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`; e.g. `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`"
+          "pattern": "^(ecdsa-koblitz-pubkey|did):",
+          "description": "Issuer public key or blockchain address IRI with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`; e.g. `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`. If scheme is `did`, the DID URL of the key"
         },
         "created": {
           "$ref": "#/definitions/DateTime"

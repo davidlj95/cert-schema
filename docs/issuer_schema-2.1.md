@@ -59,11 +59,11 @@ Properties of the `CryptographicKey` object:
 
 #### `id` (string)
 
-Issuer public key or blockchain address IRI with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`; e.g. `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`
+Issuer public key or blockchain address IRI with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`; e.g. `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`. If scheme is `did`, the DID URL of the key
 
 Additional restrictions:
 
-* Regex pattern: `^ecdsa-koblitz-pubkey:`
+* Regex pattern: `^(ecdsa-koblitz-pubkey|did):`
 
 #### `created` (DateTime, required)
 
