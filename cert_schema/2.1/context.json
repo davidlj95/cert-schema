@@ -43,13 +43,15 @@
     },
 
     "BTCOpReturn": "cp:BTCOpReturn",
+    "ETHData": "cp:ETHData",
     "targetHash": "cp:targetHash",
     "merkleRoot": "cp:merkleRoot",
     "proof": "cp:proof",
     "anchors": "cp:anchors",
     "sourceId": "cp:sourceId",
     "right": "cp:right",
-    "left": "cp:left"
+    "left": "cp:left",
+    "chain": "bc:chain"
   },
   "obi:validation": [
     {
